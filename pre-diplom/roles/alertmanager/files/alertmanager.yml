@@ -1,0 +1,9 @@
+route:
+  receiver: telegram
+receivers:
+  - name : telegram
+    telegram_configs:
+      - bot_token: 6061794557:AAG7GW-CCfu-z4hPZ5pffgOBgf4SGzhSvRw
+        api_url: https://api.telegram.org
+        chat_id: -1001540507095
+        parse_mode: ''
