@@ -3,7 +3,8 @@ pipeline {
     stages {
         stage('Sent message about starting deploy') {
             steps {
-                sh 'curl -s -X POST https://api.telegram.org/bot6061794557:AAG7GW-CCfu-z4hPZ5pffgOBgf4SGzhSvRw/sendMessage -d chat_id=-1001540507095 -d parse_mode="Markdown" -d text="Старт деплой"'
+                sh 'curl -s -X POST https://api.telegram.org/bot6061794557:AAG7GW-CCfu-z4hPZ5pffgOBgf4SGzhSvRw/sendMessage -d chat_id=-1001540507095 -d parse_mode="Markdown" -d text="Starting deployment
+                                                                                                                                                                                       by roman.voronovich"'
             }
         }
         stage('Build image') {
