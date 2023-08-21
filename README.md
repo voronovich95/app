@@ -130,5 +130,5 @@ GitHub — это сервис для совместной разработки 
 ### Для запуска необходимо утановить Ansible и Java
 ```sh
 ansible-playbook -i hosts  playbook-diplom.yml -K
-ubuntu/ubuntu
+passwd from user on remote host
 ```
