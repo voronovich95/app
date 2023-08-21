@@ -8,7 +8,9 @@ pipeline {
         }
         stage('Build image') {
             steps {
-               sh "docker build -t mynew-${env.BUILD_NUMBER} ."
+              script {
+                   docker.build('my_app.01')
+                 }
             }
         }
         
