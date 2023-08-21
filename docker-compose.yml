@@ -1,6 +1,6 @@
 services:
   mysite:
-    image: my_app.01
+    image: mynew-${env.BUILD_NUMBER}
     container_name: my_site
     ports:
       - 80:80
