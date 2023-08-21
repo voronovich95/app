@@ -3,11 +3,11 @@
   hosts: ubuntu34
   become: true
   roles:
-#    - docker 
+    - docker 
     - jenkins
-#    - grafana
-#    - prometheus  
-#    - prom_docker_export 
-#    - cadvisor
-#    - alertmanager
-#    - blackbox
+    - grafana
+    - prometheus  
+    - prom_docker_export 
+    - cadvisor
+    - alertmanager
+    - blackbox
