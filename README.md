@@ -127,3 +127,8 @@ GitHub — это сервис для совместной разработки 
 4. https://disk.yandex.ru/d/KUQ3pFyGJ8EmfQ
 5. https://prometheus.io/docs/introduction/design-doc/
 ```
+### Для запуска необходимо утановить Ansible и Java
+```sh
+ansible-playbook -i hosts  playbook-diplom.yml -K
+ubuntu/ubuntu
+```
